@@ -1,0 +1,50 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# production
+/build
+/dist
+
+# misc
+.DS_Store
+.env
+.env.*.local
+*.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bun.lockb
+
+# editor
+.vscode
+.idea
+
+# OS
+Thumbs.db
+ehthumbs.db
+
+# testing
+coverage
+*.lcov
+
+# typescript
+*.tsbuildinfo
+
+# supabase
+.supabase
+
+# generated files
+*.log
+
+# next.js (if any use)
+/.next
+
+# vercel (if deployed to Vercel)
+.vercel
+
+# tailwind
+tailwind.config.ts
